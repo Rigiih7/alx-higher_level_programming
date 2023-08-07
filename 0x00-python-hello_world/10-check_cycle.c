@@ -19,11 +19,11 @@ int check_cycle(listint_t *list)
 
 	while (nasra && mycode && mycode->next)
 	{
-		if (nasra == mycode)
-			return (1);
-
 		nasra = nasra->next;
 		mycode = mycode->next->next;
+		if (nasra == mycode)
+
+			return (1);
 	}
 
 	return (0);
