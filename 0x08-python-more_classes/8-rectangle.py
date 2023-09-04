@@ -118,8 +118,7 @@ class Rectangle:
             return (self.__width * 2) + (self.__height * 2)
 
     def _draw_rectangle(self):
-        """Formats a string of '#' and '\n' 
-
+        """Formats a string of '#' and '\n'
         Attributes:
             __width (int): horizontal dimension of rectangle
             __height (int): vertical dimension of rectangle

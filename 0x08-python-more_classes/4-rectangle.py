@@ -4,7 +4,6 @@
 
 class Rectangle:
     """Takes in args for width and height of a rectangle
-    
     Args:
         width (int): horizontal dimension of rectangle, defaults to 0
         height (int): vertical dimension of rectangle, defaults to 0
